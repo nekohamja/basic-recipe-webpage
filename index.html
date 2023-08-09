@@ -1,34 +1,42 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home</title>
 </head>
 <body>
-    <h1 id="header">Recipes</h1>
-    <br>
-    <img src="https://www.allrecipes.com/thmb/nYSZduxspJJeYExxpVB7miP9jXM=/364x242/filters:no_upscale():max_bytes(150000):strip_icc():focal(999x0:1001x2):format(webp)/242342-fiesta-slow-cooker-shredded-chicken-tacos-ddmfs-3X2-0902-775cf5010b5b46cdbdf2ca50993628a9.jpg" alt="homepage image">
-    <br>
-
-    <ol>
-        <li>
-            <a href="./recipes/lasagna.html">Homemade Lasagna Recipe</a>
-            <p>This is my mom's special homemade lasagna recipe with a meaty, 
-                made-from-scratch tomato sauce and a deliciously cheesy filling. </p>
-        </li>
-        <li>
-            <a href="./recipes/cuban-ropa-vieja.html">Cuba Ropa Vieja Recipe</a>
-            <p>This ropa vieja is great served on tortillas or over rice. 
-                Add sour cream, cheese, and fresh cilantro on the side.</p>
-        </li>
-        <li>
-            <a href="./recipes/crockpot-italian-chicken.html">Crockpot Italian Chicken Recipe</a>
-            <p>Nothing could be easier than this for a weekday meal 
-                that's ready when you get home.</p>
-        </li>
-    </ol>
-    <a href="#header">Return to top</a>
-    
+    <div class="navigation">
+        <h1 id="header">Recipes</h1>
+        <a class="nav-button" href="index.html">Home</a>
+        <a class="nav-button" href="#header">Return to top</a>
+    </div>
+    <div class="container">
+        <div class="content">
+            <ol class="recipe-list">
+                <li class="recipe">
+                    <a href="./recipes/lasagna.html">Homemade Lasagna Recipe</a>
+                    <p>This is my mom's special homemade lasagna recipe with a meaty, 
+                        made-from-scratch tomato sauce and a deliciously cheesy filling. </p>
+                    <img class="recipe-image-home" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fpublic-assets.meredithcorp.io%2Ff5fb06bae980ae5f3bc67b14d71ff4f5%2F1667067170083Homemade-Lasagna.jpeg&q=60&c=sc&orient=true&poi=auto&h=512" alt="homepage image">
+                </li>
+                <li class="recipe">
+                    <a href="./recipes/cuban-ropa-vieja.html">Cuba Ropa Vieja Recipe</a>
+                    <p>This ropa vieja is great served on tortillas or over rice.                             
+                        Add sour cream, cheese, and fresh cilantro on the side.</p>
+                    <br>
+                    <img class="recipe-image-home" src="https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fimages.media-allrecipes.com%2Fuserphotos%2F8368708.jpg&q=60&c=sc&orient=true&poi=auto&h=512" alt="homepage image">
+                </li>
+                <li class="recipe">
+                    <a href="./recipes/crockpot-italian-chicken.html">Crockpot Italian Chicken Recipe</a>
+                    <p>Nothing could be easier than this for a weekday meal 
+                        that's ready when you get home.</p>
+                    <br>
+                    <img class="recipe-image-home" src="https://www.allrecipes.com/thmb/cLLmeWO7j9YYI66vL3eZzUL_NKQ=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/7501402crockpot-italian-chicken-recipe-fabeveryday4x3-223051c7188841cb8fd7189958c62f3d.jpg" alt="homepage image">
+                </li>
+            </ol>
+        </div>
+    </div>
 </body>
 </html>

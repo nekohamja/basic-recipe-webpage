@@ -1,0 +1,83 @@
+/* general adjustments */
+.container{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    padding: 10px;
+}
+.content{
+    padding: 10px;
+    border: 3px solid grey;
+    border-radius: 12px;
+    width: 100%;
+}
+h1 {
+    text-align: center;
+    margin-right: auto;
+}
+h1,p,ol,li{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+
+/* navigation bar */
+.navigation{
+    display: flex;
+    margin: auto;
+    width: 70%;
+    padding: 0px 10px;
+}
+.nav-button {
+    margin-top: 1.25%;         /* format for centering element vertically */
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    height: 48px;
+    width: 128px;
+    margin-left: 1%;
+    background-color: grey;
+    color: white;
+    border-radius: 12px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-decoration: none;
+}
+
+/* recipe content */
+.recipe{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    margin-right: 1%;
+}
+.recipe-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    list-style-type: none;
+}
+
+
+/* images */
+.recipe-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;            /* height/width sets responsive image */
+    height: auto;
+    border-radius: 12px;
+    margin-left: 1%;
+}
+.recipe-image-home{
+    justify-content: center;
+    align-items: center;
+    width: 100%;            /* height/width sets responsive image */
+    height: auto;
+    border-radius: 12px;
+}
+
+
+
+
+
+
